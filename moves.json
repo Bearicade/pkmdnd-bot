@@ -3,8 +3,8 @@
     "move": "Pound",
     "category": "Physical",
     "type": "Normal",
-    "accuracy": "5",
-    "pp": "28",
+    "accuracy": 5,
+    "pp": 28,
     "dmg": "1d6",
     "archetype": "Slam",
     "add": "N/A"
@@ -14,8 +14,8 @@
     "move": "Karate Chop",
     "category": "Physical",
     "type": "Fighting",
-    "accuracy": "5",
-    "pp": "20",
+    "accuracy": 5,
+    "pp": 20,
     "dmg": "1d6+1",
     "archetype": "Punch",
     "add": "Critical Hit Rate +1"
@@ -25,8 +25,8 @@
     "move": "Double Slap",
     "category": "Physical",
     "type": "Normal",
-    "accuracy": "2",
-    "pp": "8",
+    "accuracy": 2,
+    "pp": 8,
     "dmg": "1d2",
     "archetype": "Slap",
     "add": "Attacks the target 1d4+1 times"
@@ -36,8 +36,8 @@
     "move": "Comet Punch",
     "category": "Physical",
     "type": "Normal",
-    "accuracy": "2",
-    "pp": "12",
+    "accuracy": 2,
+    "pp": 12,
     "dmg": "1d2",
     "archetype": "Punch",
     "add": "Attacks the target 1d4+1 times"
@@ -47,8 +47,8 @@
     "move": "Mega Punch",
     "category": "Physical",
     "type": "Normal",
-    "accuracy": "2",
-    "pp": "16",
+    "accuracy": 2,
+    "pp": 16,
     "dmg": "1d10",
     "archetype": "Punch",
     "add": "N/A"
@@ -58,8 +58,8 @@
     "move": "Pay Day",
     "category": "Physical",
     "type": "Normal",
-    "accuracy": "5",
-    "pp": "16",
+    "accuracy": 5,
+    "pp": 16,
     "dmg": "1d6",
     "archetype": "Bullet",
     "add": "1d4 GP drops onto the ground"
@@ -69,8 +69,8 @@
     "move": "Fire Punch",
     "category": "Physical",
     "type": "Fire",
-    "accuracy": "5",
-    "pp": "12",
+    "accuracy": 5,
+    "pp": 12,
     "dmg": "2d4+1",
     "archetype": "Punch",
     "add": "Burn Chance"
@@ -80,8 +80,8 @@
     "move": "Ice Punch",
     "category": "Physical",
     "type": "Ice",
-    "accuracy": "5",
-    "pp": "12",
+    "accuracy": 5,
+    "pp": 12,
     "dmg": "2d4+1",
     "archetype": "Punch",
     "add": "Freeze Chance"
@@ -91,8 +91,8 @@
     "move": "Thunder Punch",
     "category": "Physical",
     "type": "Electric",
-    "accuracy": "5",
-    "pp": "12",
+    "accuracy": 5,
+    "pp": 12,
     "dmg": "2d4+1",
     "archetype": "Punch",
     "add": "Paralysis Chance"
@@ -102,10 +102,1132 @@
     "move": "Scratch",
     "category": "Physical",
     "type": "Normal",
-    "accuracy": "5",
-    "pp": "28",
+    "accuracy": 5,
+    "pp": 28,
     "dmg": "1d6",
     "archetype": "Scratch",
     "add": "N/A"
+  },
+
+  "vicegrip": {
+    "move": "Vice Grip",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 24,
+    "dmg": "1d6+1",
+    "archetype": "Bind",
+    "add": "N/A"
+  },
+
+  "guillotine": {
+    "move": "Guillotine",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": -5,
+    "pp": 4,
+    "dmg": "4d10",
+    "archetype": "Slash",
+    "add": "The character is stunned next round"
+  },
+
+  "razorwind": {
+    "move": "Razor Wind",
+    "category": "Special",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 8,
+    "dmg": "1d10",
+    "archetype": "Spin",
+    "add": "Delayed Attack"
+  },
+
+  "swordsdance": {
+    "move": "Swords Dance",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": -10,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Statboost Self (2 Strength)"
+  },
+
+  "cut": {
+    "move": "Cut",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 4,
+    "pp": 24,
+    "dmg": "1d6+1",
+    "archetype": "Slash",
+    "add": "N/A"
+  },
+
+  "gust": {
+    "move": "Gust",
+    "category": "Special",
+    "type": "Flying",
+    "accuracy": 5,
+    "pp": 28,
+    "dmg": "1d6 (2d6)",
+    "archetype": "Tornado",
+    "add": "Increased Damage agaisnt Airborne targets"
+  },
+
+  "wingattack": {
+    "move": "Wing Attack",
+    "category": "Physical",
+    "type": "Flying",
+    "accuracy": 5,
+    "pp": 28,
+    "dmg": "1d8",
+    "archetype": "Slam",
+    "add": "N/A"
+  },
+
+  "whirlwind": {
+    "move": "Whirlwind",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": 0,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Tornado",
+    "add": "Targets hit are thrown 20' in a random direction"
+  },
+
+  "fly": {
+    "move": "Wing Attack",
+    "category": "Physical",
+    "type": "Flying",
+    "accuracy": 4,
+    "pp": 12,
+    "dmg": "1d10+1",
+    "archetype": "Tackle",
+    "add": "Become Airborne and gain an additional move action| While Airborne crash into an opponent to deal damage (Character without Airborne charges must become groudned after 1 round)"
+  },
+
+  "bind": {
+    "move": "Bind",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 2,
+    "pp": 16,
+    "dmg": "1d2",
+    "archetype": "Bind",
+    "add": "Bounded target is damaged for 1d2 each round"
+  },
+
+  "slam": {
+    "move": "Slam",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 0,
+    "pp": 16,
+    "dmg": "1d10",
+    "archetype": "Slam",
+    "add": "N/A"
+  },
+
+  "vinewhip": {
+    "move": "Vine Whip",
+    "category": "Physical",
+    "type": "Grass",
+    "accuracy": 5,
+    "pp": 20,
+    "dmg": "1d6",
+    "archetype": "Slam",
+    "add": "Can hit targets 5' away"
+  },
+
+  "stomp": {
+    "move": "Stomp",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 16,
+    "dmg": "1d8",
+    "archetype": "Slam",
+    "add": "Flinch Chance"
+  },
+
+  "doublekick": {
+    "move": "Double Kick",
+    "category": "Physical",
+    "type": "Fighting",
+    "accuracy": 5,
+    "pp": 24,
+    "dmg": "1d4+1",
+    "archetype": "Kick",
+    "add": "Attacks the target 2 times"
+  },
+
+  "megakick": {
+    "move": "Mega Kick",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 0,
+    "pp": 4,
+    "dmg": "3d4",
+    "archetype": "Kick",
+    "add": "N/A"
+  },
+
+  "jumpkick": {
+    "move": "Jump Kick",
+    "category": "Physical",
+    "type": "Fighting",
+    "accuracy": 4,
+    "pp": 8,
+    "dmg": "1d12",
+    "archetype": "Kick",
+    "add": "If the attack misses deal 1d4 damage to yourself"
+  },
+
+  "rollingkick": {
+    "move": "Rolling Kick",
+    "category": "Physical",
+    "type": "Fighting",
+    "accuracy": 2,
+    "pp": 12,
+    "dmg": "1d8",
+    "archetype": "Kick",
+    "add": "Flinch Chance"
+  },
+
+  "sandattack": {
+    "move": "Sand Attack",
+    "category": "Status",
+    "type": "Ground",
+    "accuracy": 5,
+    "pp": 12,
+    "dmg": "N/A",
+    "archetype": "Spray",
+    "add": "Statdecrease Target (1 Accuracy)"
+  },
+
+  "headbutt": {
+    "move": "Headbutt",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 12,
+    "dmg": "2d4+1",
+    "archetype": "Headbutt",
+    "add": "Flinch Chance"
+  },
+
+  "hornattack": {
+    "move": "Horn Attack",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 20,
+    "dmg": "1d8",
+    "archetype": "Horn",
+    "add": "N/A"
+  },
+
+  "furyattack": {
+    "move": "Fury Attack",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 2,
+    "pp": 16,
+    "dmg": "1d2",
+    "archetype": "Horn",
+    "add": "Attacks the target 1d4+1 times"
+  },
+
+  "horndrill": {
+    "move": "Horn Drill",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": -5,
+    "pp": 4,
+    "dmg": "4d10",
+    "archetype": "Horn",
+    "add": "The character is stunned next round"
+  },
+
+  "tackle": {
+    "move": "Tackle",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 28,
+    "dmg": "1d6",
+    "archetype": "Tackle",
+    "add": "N/A"
+  },
+
+  "bodyslam": {
+    "move": "Body Slam",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 12,
+    "dmg": "1d10",
+    "archetype": "Tackle",
+    "add": "Paralysis Chance"
+  },
+
+  "wrap": {
+    "move": "Wrap",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 3,
+    "pp": 16,
+    "dmg": "1d2",
+    "archetype": "Tough",
+    "add": "Bounded target is damaged for 1d2 each round"
+  },
+
+  "takedown": {
+    "move": "Take Down",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 2,
+    "pp": 16,
+    "dmg": "1d10+1",
+    "archetype": "Tackle",
+    "add": "Recoil 1d4"
+  },
+
+  "thrash": {
+    "move": "Thrash",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 8,
+    "dmg": "3d4",
+    "archetype": "Flail",
+    "add": "For the next 1d4 rounds you must attack with this move, Costs no additional PP"
+  },
+
+  "doubleedge": {
+    "move": "Double-Edge",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 12,
+    "dmg": "3d4",
+    "archetype": "Tackle",
+    "add": "Recoil 1d6"
+  },
+
+  "tailwhip": {
+    "move": "Tail Whip",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 24,
+    "dmg": "N/A",
+    "archetype": "Tail",
+    "add": "Statdecrease Target (1 Constitution)"
+  },
+
+  "poisonsting": {
+    "move": "Poison Sting",
+    "category": "Physical",
+    "type": "Poison",
+    "accuracy": 5,
+    "pp": 28,
+    "dmg": "1d2",
+    "archetype": "Horn",
+    "add": "Poison Chance"
+  },
+
+  "twineedle": {
+    "move": "Twineedle",
+    "category": "Physical",
+    "type": "Bug",
+    "accuracy": 5,
+    "pp": 16,
+    "dmg": "1d4",
+    "archetype": "Horn",
+    "add": "Attacks the target 2 times |Poison"
+  },
+
+  "pinmissile": {
+    "move": "Pin Missile",
+    "category": "Physical",
+    "type": "Bug",
+    "accuracy": 4,
+    "pp": 16,
+    "dmg": "1d4",
+    "archetype": "Bullet",
+    "add": "Attacks the target 1d4+1 times"
+  },
+
+  "leer": {
+    "move": "Leer",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 24,
+    "dmg": "N/A",
+    "archetype": "Look",
+    "add": "Statdecrease Target (1 Constitution)"
+  },
+
+  "bite": {
+    "move": "Bite",
+    "category": "Physical",
+    "type": "Dark",
+    "accuracy": 5,
+    "pp": 20,
+    "dmg": "1d8",
+    "archetype": "Bite",
+    "add": "Flinch Chance"
+  },
+
+  "growl": {
+    "move": "Growl",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 32,
+    "dmg": "N/A",
+    "archetype": "Sound",
+    "add": "Statdecrease Target (1 Strength)"
+  },
+
+  "roar": {
+    "move": "Roar",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Sound",
+    "add": "Targets hit are thrown 20' away from the character"
+  },
+
+  "sing": {
+    "move": "Sing",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": -4,
+    "pp": 12,
+    "dmg": "N/A",
+    "archetype": "Sound",
+    "add": "Sleep"
+  },
+
+  "supersonic": {
+    "move": "Supersonic",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": -4,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Sound",
+    "add": "Confuse"
+  },
+
+  "sonicboom": {
+    "move": "Sonic Boom",
+    "category": "Special",
+    "type": "Normal",
+    "accuracy": 3,
+    "pp": 16,
+    "dmg": "4",
+    "archetype": "Orb",
+    "add": "N/A"
+  },
+
+  "disable": {
+    "move": "Disable",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": -10,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Mind",
+    "add": "Disable target's last used move"
+  },
+
+  "acid": {
+    "move": "Acid",
+    "category": "Special",
+    "type": "Poison",
+    "accuracy": 5,
+    "pp": 24,
+    "dmg": "1d6",
+    "archetype": "Spray",
+    "add": "Statdecrease Target (1 Constitution)"
+  },
+
+  "ember": {
+    "move": "Ember",
+    "category": "Special",
+    "type": "Fire",
+    "accuracy": 5,
+    "pp": 20,
+    "dmg": "1d6",
+    "archetype": "Breath",
+    "add": "Burn Chance"
+  },
+
+  "flamethrower": {
+    "move": "Flamethrower",
+    "category": "Special",
+    "type": "Fire",
+    "accuracy": 5,
+    "pp": 12,
+    "dmg": "1d10+1",
+    "archetype": "Breath",
+    "add": "Burn Chance"
+  },
+
+  "mist": {
+    "move": "Mist",
+    "category": "Status",
+    "type": "Ice",
+    "accuracy": -10,
+    "pp": 24,
+    "dmg": "N/A",
+    "archetype": "Mist",
+    "add": "Ignores Moves that change modifiers"
+  },
+
+  "watergun": {
+    "move": "Water Gun",
+    "category": "Special",
+    "type": "Water",
+    "accuracy": 5,
+    "pp": 20,
+    "dmg": "1d6",
+    "archetype": "Spray",
+    "add": "N/A"
+  },
+
+  "hydropump": {
+    "move": "Hydro Pump",
+    "category": "Special",
+    "type": "Water",
+    "accuracy": 1,
+    "pp": 4,
+    "dmg": "2d6",
+    "archetype": "Beam",
+    "add": "N/A"
+  },
+
+  "surf": {
+    "move": "Surf",
+    "category": "Special",
+    "type": "Water",
+    "accuracy": 5,
+    "pp": 12,
+    "dmg": "1d10+1",
+    "archetype": "Disperse",
+    "add": "N/A"
+  },
+
+  "icebeam": {
+    "move": "Ice Beam",
+    "category": "Special",
+    "type": "Ice",
+    "accuracy": 5,
+    "pp": 8,
+    "dmg": "1d10+1",
+    "archetype": "Beam",
+    "add": "Freeze Chance"
+  },
+
+  "blizzard": {
+    "move": "Blizzard",
+    "category": "Special",
+    "type": "Ice",
+    "accuracy": -1,
+    "pp": 4,
+    "dmg": "2d6",
+    "archetype": "Tornado",
+    "add": "Freeze Chance"
+  },
+
+  "psybeam": {
+    "move": "Psybeam",
+    "category": "Special",
+    "type": "Psychic",
+    "accuracy": 5,
+    "pp": 16,
+    "dmg": "1d8",
+    "archetype": "Beam",
+    "add": "Confuse Chance"
+  },
+
+  "bubblebeam": {
+    "move": "Bubble Beam",
+    "category": "Special",
+    "type": "Water",
+    "accuracy": 5,
+    "pp": 16,
+    "dmg": "1d8",
+    "archetype": "Beam",
+    "add": "Statdecrease Target (1 Speed)"
+  },
+
+  "aurorabeam": {
+    "move": "Aurora Beam",
+    "category": "Special",
+    "type": "Ice",
+    "accuracy": 5,
+    "pp": 16,
+    "dmg": "1d8",
+    "archetype": "Beam",
+    "add": "Statdecrease Target (1 Strength)"
+  },
+
+  "hyperbeam": {
+    "move": "Hyper Beam",
+    "category": "Special",
+    "type": "Normal",
+    "accuracy": 3,
+    "pp": 4,
+    "dmg": "3d6",
+    "archetype": "Beam",
+    "add": "The character is stunned next round"
+  },
+
+  "peck": {
+    "move": "Peck",
+    "category": "Physical",
+    "type": "Flying",
+    "accuracy": 5,
+    "pp": 28,
+    "dmg": "1d4+1",
+    "archetype": "Horn",
+    "add": "N/A"
+  },
+
+  "drillpeck": {
+    "move": "Drill Peck",
+    "category": "Physical",
+    "type": "Flying",
+    "accuracy": 5,
+    "pp": 16,
+    "dmg": "1d10",
+    "archetype": "Horn",
+    "add": "N/A"
+  },
+
+  "submission": {
+    "move": "Submission",
+    "category": "Physical",
+    "type": "Fighting",
+    "accuracy": 1,
+    "pp": 16,
+    "dmg": "1d10",
+    "archetype": "Tackle",
+    "add": "Recoil 1d4"
+  },
+
+  "lowkick": {
+    "move": "Low Kick",
+    "category": "Physical",
+    "type": "Fighting",
+    "accuracy": 5,
+    "pp": 28,
+    "dmg": "1d6",
+    "archetype": "Kick",
+    "add": "Increase damage by 1 by the targets weight for every 20lbs."
+  },
+
+  "counter": {
+    "move": "Counter",
+    "category": "Physical",
+    "type": "Fighting",
+    "accuracy": 5,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Speed Priority -5|Use the last physical move that was used on you without addintional effects"
+  },
+
+  "seismictoss": {
+    "move": "Seismic Toss",
+    "category": "Physical",
+    "type": "Fighting",
+    "accuracy": 5,
+    "pp": 16,
+    "dmg": "1d8",
+    "archetype": "Toss",
+    "add": "N/A"
+  },
+
+  "strength": {
+    "move": "Strength",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 12,
+    "dmg": "1d10",
+    "archetype": "Slam",
+    "add": "N/A"
+  },
+
+  "absorb": {
+    "move": "Absorb",
+    "category": "Special",
+    "type": "Grass",
+    "accuracy": 5,
+    "pp": 20,
+    "dmg": "1d4",
+    "archetype": "Drain",
+    "add": "Heal for half the damage dealt by the attack"
+  },
+
+  "megadrain": {
+    "move": "Mega Drain",
+    "category": "Special",
+    "type": "Grass",
+    "accuracy": 5,
+    "pp": 12,
+    "dmg": "1d6",
+    "archetype": "Drain",
+    "add": "Heal for half the damage dealt by the attack"
+  },
+
+  "leechseed": {
+    "move": "Leech Seed",
+    "category": "Status",
+    "type": "Grass",
+    "accuracy": 3,
+    "pp": 8,
+    "dmg": "N/A",
+    "archetype": "Fling",
+    "add": "For the next 2d4 rounds steal 1d2 HP from the target"
+  },
+
+  "growth": {
+    "move": "Growth",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": -10,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Statboost Self (1 Strength|1 Intelligence)"
+  },
+
+  "razorleaf": {
+    "move": "Razor Leaf",
+    "category": "Physical",
+    "type": "Grass",
+    "accuracy": 4,
+    "pp": 20,
+    "dmg": "1d6+1",
+    "archetype": "Bullet",
+    "add": "Critical Hit Rate +1"
+  },
+
+  "solarbeam": {
+    "move": "Solar Beam",
+    "category": "Special",
+    "type": "Grass",
+    "accuracy": 5,
+    "pp": 8,
+    "dmg": "3d4",
+    "archetype": "Beam",
+    "add": "Delayed Attack"
+  },
+
+  "stunspore": {
+    "move": "Stun Spore",
+    "category": "Status",
+    "type": "Grass",
+    "accuracy": 0,
+    "pp": 24,
+    "dmg": "N/A",
+    "archetype": "Powder",
+    "add": "Paralysis"
+  },
+
+  "poisonpowder": {
+    "move": "Poison Powder",
+    "category": "Status",
+    "type": "Poison",
+    "accuracy": 0,
+    "pp": 28,
+    "dmg": "N/A",
+    "archetype": "Powder",
+    "add": "Poison"
+  },
+
+  "sleeppowder": {
+    "move": "Sleep Powder",
+    "category": "Status",
+    "type": "Grass",
+    "accuracy": 0,
+    "pp": 12,
+    "dmg": "N/A",
+    "archetype": "Powder",
+    "add": "Sleep"
+  },
+
+  "petaldance": {
+    "move": "Petal Dance",
+    "category": "Special",
+    "type": "Grass",
+    "accuracy": 5,
+    "pp": 8,
+    "dmg": "3d4",
+    "archetype": "Spin",
+    "add": "For the next 1d4 rounds you must attack with this move, Costs no additional PP"
+  },
+
+  "stringshot": {
+    "move": "String Shot",
+    "category": "Status",
+    "type": "Bug",
+    "accuracy": 4,
+    "pp": 32,
+    "dmg": "N/A",
+    "archetype": "Spray",
+    "add": "Statdecrease Target (1 Speed)"
+  },
+
+  "dragonrage": {
+    "move": "Dragon Rage",
+    "category": "Special",
+    "type": "Dragon",
+    "accuracy": 5,
+    "pp": 8,
+    "dmg": "6",
+    "archetype": "Breath",
+    "add": "N/A"
+  },
+
+  "firespin": {
+    "move": "Fire Spin",
+    "category": "Special",
+    "type": "Fire",
+    "accuracy": 2,
+    "pp": 12,
+    "dmg": "1d4+1",
+    "archetype": "Bind",
+    "add": "Bounded target is damaged for 1d2 each round |The character is not actively bounding the character"
+  },
+
+  "thundershock": {
+    "move": "Thunder Shock",
+    "category": "Special",
+    "type": "Electric",
+    "accuracy": 5,
+    "pp": 24,
+    "dmg": "1d6",
+    "archetype": "Spray",
+    "add": "Paralysis Chance"
+  },
+
+  "thunderbolt": {
+    "move": "Thunderbolt",
+    "category": "Special",
+    "type": "Electric",
+    "accuracy": 5,
+    "pp": 12,
+    "dmg": "1d10+1",
+    "archetype": "Beam",
+    "add": "Paralysis Chance"
+  },
+
+  "thunderwave": {
+    "move": "Thunder Wave",
+    "category": "Status",
+    "type": "Electric",
+    "accuracy": 3,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Ray",
+    "add": "Paralysis"
+  },
+
+  "thunder": {
+    "move": "Thunder",
+    "category": "Special",
+    "type": "Electric",
+    "accuracy": -1,
+    "pp": 8,
+    "dmg": "2d6",
+    "archetype": "Burst",
+    "add": "Paralysis Chance |Burst Damage 2"
+  },
+
+  "rockthrow": {
+    "move": "Rock Throw",
+    "category": "Physical",
+    "type": "Rock",
+    "accuracy": 3,
+    "pp": 12,
+    "dmg": "1d6+1",
+    "archetype": "Fling",
+    "add": "N/A"
+  },
+
+  "earthquake": {
+    "move": "Earthquake",
+    "category": "Physical",
+    "type": "Ground",
+    "accuracy": 5,
+    "pp": 8,
+    "dmg": "1d12",
+    "archetype": "Disperse",
+    "add": "N/A"
+  },
+
+  "fissure": {
+    "move": "Fissure",
+    "category": "Physical",
+    "type": "Ground",
+    "accuracy": -5,
+    "pp": 4,
+    "dmg": "4d10",
+    "archetype": "Slam",
+    "add": "The character is stunned next round"
+  },
+
+  "dig": {
+    "move": "Dig",
+    "category": "Physical",
+    "type": "Ground",
+    "accuracy": 5,
+    "pp": 8,
+    "dmg": "1d10",
+    "archetype": "Tackle",
+    "add": "Dig underground|Exit the ground while tackling a target for damage (Those without Tunnel Digger must exit the ground after 1 round)"
+  },
+
+  "toxic": {
+    "move": "Toxic",
+    "category": "Status",
+    "type": "Poison",
+    "accuracy": 3,
+    "pp": 8,
+    "dmg": "N/A",
+    "archetype": "Burst",
+    "add": "Poison|Burst Poison Chance"
+  },
+
+  "confusion": {
+    "move": "Confusion",
+    "category": "Special",
+    "type": "Psychic",
+    "accuracy": 5,
+    "pp": 20,
+    "dmg": "1d6+1",
+    "archetype": "Mind",
+    "add": "Confuse Chance"
+  },
+
+  "psychic": {
+    "move": "Psychic",
+    "category": "Special",
+    "type": "Psychic",
+    "accuracy": 5,
+    "pp": 8,
+    "dmg": "1d10+1",
+    "archetype": "Mind",
+    "add": "Statdecrease Target (1 Wisdom)"
+  },
+
+  "hypnosis": {
+    "move": "Hypnosis",
+    "category": "Status",
+    "type": "Psychic",
+    "accuracy": -3,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Mind",
+    "add": "Sleep"
+  },
+
+  "meditate": {
+    "move": "Meditate",
+    "category": "Status",
+    "type": "Psychic",
+    "accuracy": -10,
+    "pp": 32,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Statboost Self (1 Strength)"
+  },
+
+  "agility": {
+    "move": "Agility",
+    "category": "Status",
+    "type": "Psychic",
+    "accuracy": -10,
+    "pp": 24,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Statboost Self (2 Speed)"
+  },
+
+  "quickattack": {
+    "move": "Quick Attack",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 24,
+    "dmg": "1d6",
+    "archetype": "Tackle",
+    "add": "Speed Priority 1"
+  },
+
+  "rage": {
+    "move": "Rage",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 16,
+    "dmg": "1d4",
+    "archetype": "Flail",
+    "add": "Statboost Self (1 Strength) only when the move is used again next round"
+  },
+
+  "teleport": {
+    "move": "Teleport",
+    "category": "Status",
+    "type": "Psychic",
+    "accuracy": -10,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Teleport to a location up to 60' Away"
+  },
+
+  "nightshade": {
+    "move": "Night Shade",
+    "category": "Special",
+    "type": "Ghost",
+    "accuracy": 5,
+    "pp": 12,
+    "dmg": "1d4",
+    "archetype": "Powder",
+    "add": "Increase damage by 1d4 for each 3 additional levels"
+  },
+
+  "mimic": {
+    "move": "Mimic",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": -10,
+    "pp": 8,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Use any move that's been used this Round"
+  },
+
+  "screech": {
+    "move": "Screech",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": 2,
+    "pp": 32,
+    "dmg": "N/A",
+    "archetype": "Sound",
+    "add": "Statdecrease Target (2 Constitution)"
+  },
+
+  "doubleteam": {
+    "move": "Double Team",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": -10,
+    "pp": 12,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Statboost Self (1 Evasiveness)"
+  },
+
+  "recover": {
+    "move": "Recover",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": -10,
+    "pp": 8,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Heal 1d8"
+  },
+
+  "harden": {
+    "move": "Harden",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": 24,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Statboost Self (1 Constitution)"
+  },
+
+  "confuseray": {
+    "move": "Confuse Ray",
+    "category": "Status",
+    "type": "Ghost",
+    "accuracy": 5,
+    "pp": 8,
+    "dmg": "N/A",
+    "archetype": "Ray",
+    "add": "Confuse"
+  },
+
+  "minimize": {
+    "move": "Minimize",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": -10,
+    "pp": 8,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Statboost Self (1 Evasiveness)"
+  },
+
+  "smokescreen": {
+    "move": "Smokescreen",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": -10,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Mist",
+    "add": "Statdecrease Target (1 Accuracy)"
+  },
+
+  "withdraw": {
+    "move": "Withdraw",
+    "category": "Status",
+    "type": "Water",
+    "accuracy": -10,
+    "pp": 32,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Statboost Self (1 Constitution)"
+  },
+
+  "defensecurl": {
+    "move": "Defense Curl",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": 32,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Statboost Self (1 Constitution)"
+  },
+
+  "barrier": {
+    "move": "Barrier",
+    "category": "Status",
+    "type": "Psychic",
+    "accuracy": -10,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Statboost Self (2 Constitution)"
   }
 }

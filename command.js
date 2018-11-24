@@ -14,19 +14,21 @@ module.exports = function () {
         msg.channel.send("```These are my current commands:\n\n" +
         "- ping: Pong!\n" +
         "- hello: Say hi to me!\n" +
-        "- roll d[#]: IN-PROGRESS." + "```");
+        "- config: See your current settings.\n" +
+        "- roll [#][die]: I'll roll the specified die. (WIP)\n" +
+        "- move [move ID]: Check the move's properties (I only have 1-110)" + "```");
         break;
 
         case 'roll':  //roll random number within parameter
-        if (isNaN(parseInt(args[0]))) {
-          msg.channel.send("Invalid entry. Please enter number after " + prefix + "roll.");
-        } else {
-          msg.channel.send("`rolled " + Math.ceil(Math.random() * args[0]) + "`");
-        } break;
 
         //For fun, text responses
         case 'ping':
         msg.channel.send("Pong!");
+        break;
+
+        case 'config':
+        msg.channel.send("```prefix: \"" + config.prefix + "\"\n" +
+        "server: \"" + config.server + "\"\n" + "channel: \"" + config.channel + "\"\n" + "```");
         break;
 
         case 'gutentag':
@@ -41,7 +43,7 @@ module.exports = function () {
         case 'move':
         let move = "";
           for (let i = 0; i < args.length; i++) {
-            move = move + args[i];
+            move = move + args[i].toLowerCase();
           }
 
         msg.channel.send("```Move: " + moves[move].move + "\n" +
@@ -66,7 +68,7 @@ module.exports = function () {
 
   errorHandle = function (err, msg) {
     if (err.code === undefined) {
-      msg.channel.send("Error: No entry found");
+      msg.channel.send("I am a work-in progress!");
     } else {
       msg.channel.send("Error: unhandled exception " + err.code);
     }
