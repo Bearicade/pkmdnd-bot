@@ -1,0 +1,111 @@
+{
+  "pound": {
+    "move": "Pound",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": "5",
+    "pp": "28",
+    "dmg": "1d6",
+    "archetype": "Slam",
+    "add": "N/A"
+  },
+
+  "karatechop": {
+    "move": "Karate Chop",
+    "category": "Physical",
+    "type": "Fighting",
+    "accuracy": "5",
+    "pp": "20",
+    "dmg": "1d6+1",
+    "archetype": "Punch",
+    "add": "Critical Hit Rate +1"
+  },
+
+  "doubleslap": {
+    "move": "Double Slap",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": "2",
+    "pp": "8",
+    "dmg": "1d2",
+    "archetype": "Slap",
+    "add": "Attacks the target 1d4+1 times"
+  },
+
+  "cometpunch": {
+    "move": "Comet Punch",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": "2",
+    "pp": "12",
+    "dmg": "1d2",
+    "archetype": "Punch",
+    "add": "Attacks the target 1d4+1 times"
+  },
+
+  "megapunch": {
+    "move": "Mega Punch",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": "2",
+    "pp": "16",
+    "dmg": "1d10",
+    "archetype": "Punch",
+    "add": "N/A"
+  },
+
+  "payday": {
+    "move": "Pay Day",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": "5",
+    "pp": "16",
+    "dmg": "1d6",
+    "archetype": "Bullet",
+    "add": "1d4 GP drops onto the ground"
+  },
+
+  "firepunch": {
+    "move": "Fire Punch",
+    "category": "Physical",
+    "type": "Fire",
+    "accuracy": "5",
+    "pp": "12",
+    "dmg": "2d4+1",
+    "archetype": "Punch",
+    "add": "Burn Chance"
+  },
+
+  "icepunch": {
+    "move": "Ice Punch",
+    "category": "Physical",
+    "type": "Ice",
+    "accuracy": "5",
+    "pp": "12",
+    "dmg": "2d4+1",
+    "archetype": "Punch",
+    "add": "Freeze Chance"
+  },
+
+  "thunderpunch": {
+    "move": "Thunder Punch",
+    "category": "Physical",
+    "type": "Electric",
+    "accuracy": "5",
+    "pp": "12",
+    "dmg": "2d4+1",
+    "archetype": "Punch",
+    "add": "Paralysis Chance"
+  },
+
+  "scratch": {
+    "move": "Scratch",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": "5",
+    "pp": "28",
+    "dmg": "1d6",
+    "archetype": "Scratch",
+    "add": "N/A"
+  }
+}

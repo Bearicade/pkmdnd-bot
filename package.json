@@ -1,0 +1,11 @@
+{
+  "name": "pkmdnd-bot",
+  "version": "1.0.0",
+  "description": "Pokemon D&D Database",
+  "main": "client.js",
+  "author": "@Venn#9417 (PootDawg)",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "opusscript": "0.0.6"
+  }
+}
