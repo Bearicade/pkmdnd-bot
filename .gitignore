@@ -1,2 +1,5 @@
 ##Ignore token.
 *auth.json
+
+##Ignore Node.js Tools
+node_modules/
