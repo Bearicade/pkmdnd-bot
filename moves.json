@@ -1229,5 +1229,225 @@
     "dmg": "N/A",
     "archetype": "Self",
     "add": "Statboost Self (2 Constitution)"
+  },
+
+  "lightscreen": {
+    "move": "Light Screen",
+    "category": "Status",
+    "type": "Psychic",
+    "accuracy": -10,
+    "pp": 24,
+    "dmg": "N/A",
+    "archetype": "Wall",
+    "add": "Special Attacks are blocked and disappear if they hit this wall |Wall is Clear/Invisible"
+  },
+
+  "haze": {
+    "move": "Haze",
+    "category": "Status",
+    "type": "Ice",
+    "accuracy": -10,
+    "pp": 24,
+    "dmg": "N/A",
+    "archetype": "Mist",
+    "add": "Removes all Ability Modifiers"
+  },
+
+  "reflect": {
+    "move": "Reflect",
+    "category": "Status",
+    "type": "Psychic",
+    "accuracy": -10,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Wall",
+    "add": "Physical Attacks and movement is blocked if they hit this wall |Wall is Clear/Invisible"
+  },
+
+  "focusenergy": {
+    "move": "Focus Energy",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": -10,
+    "pp": 24,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "18's and 19's are considered to be 20's for your next attack"
+  },
+
+  "bide": {
+    "move": "Bide",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 8,
+    "dmg": "N/A",
+    "archetype": "Tackle",
+    "add": "For the next 1d4+1 rounds, all damage that is dealt to you is stored. On the last round deal half of the damage that was stored"
+  },
+
+  "mirrormove": {
+    "move": "Mirror Move",
+    "category": "Status",
+    "type": "Flying",
+    "accuracy": -10,
+    "pp": 16,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Use the last move that was used on you"
+  },
+
+  "metronome": {
+    "move": "Metronome",
+    "category": "Status",
+    "type": "Normal",
+    "accuracy": -10,
+    "pp": 8,
+    "dmg": "N/A",
+    "archetype": "Self",
+    "add": "Use a random TM move"
+  },
+
+  "selfdestruct": {
+    "move": "Self-Destruct",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 4,
+    "dmg": "4d10",
+    "archetype": "Disperse",
+    "add": "The character becomes stunned for the next 2 rounds"
+  },
+
+  "eggbomb": {
+    "move": "Egg Bomb",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 0,
+    "pp": 8,
+    "dmg": "1d12",
+    "archetype": "Fling",
+    "add": "N/A"
+  },
+
+  "lick": {
+    "move": "Lick",
+    "category": "Physical",
+    "type": "Ghost",
+    "accuracy": 5,
+    "pp": 24,
+    "dmg": "1d4+1",
+    "archetype": "Kiss",
+    "add": "Paralysis Chance"
+  },
+
+  "smog": {
+    "move": "Smog",
+    "category": "Special",
+    "type": "Poison",
+    "accuracy": -1,
+    "pp": 16,
+    "dmg": "1d4+1",
+    "archetype": "Breath",
+    "add": "Poison Chance"
+  },
+
+  "sludge": {
+    "move": "Sludge",
+    "category": "Special",
+    "type": "Poison",
+    "accuracy": 5,
+    "pp": 16,
+    "dmg": "1d8",
+    "archetype": "Fling",
+    "add": "Poison Chance"
+  },
+
+  "boneclub": {
+    "move": "Bone Club",
+    "category": "Physical",
+    "type": "Ground",
+    "accuracy": 2,
+    "pp": 16,
+    "dmg": "1d8",
+    "archetype": "Fling",
+    "add": "Flinch Chance"
+  },
+
+  "fireblast": {
+    "move": "Fire Blast",
+    "category": "Special",
+    "type": "Fire",
+    "accuracy": 2,
+    "pp": 4,
+    "dmg": "2d6",
+    "archetype": "Beam",
+    "add": "Burn Chance"
+  },
+
+  "waterfall": {
+    "move": "Waterfall",
+    "category": "Physical",
+    "type": "Water",
+    "accuracy": 5,
+    "pp": 12,
+    "dmg": "1d10",
+    "archetype": "Tackle",
+    "add": "Flinch Chance"
+  },
+
+  "clamp": {
+    "move": "Clamp",
+    "category": "Physical",
+    "type": "Water",
+    "accuracy": 2,
+    "pp": 12,
+    "dmg": "1d4+1",
+    "archetype": "Bind",
+    "add": "Bounded target is damaged for 1d2 each round"
+  },
+
+  "swift": {
+    "move": "Swift",
+    "category": "Special",
+    "type": "Normal",
+    "accuracy": 10,
+    "pp": 16,
+    "dmg": "1d8",
+    "archetype": "Bullet",
+    "add": "N/A"
+  },
+
+  "skullbash": {
+    "move": "Skull Bash",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 8,
+    "dmg": "2d6+1",
+    "archetype": "Headbutt",
+    "add": "Delayed Attack"
+  },
+
+  "spikecannon": {
+    "move": "Spike Cannon",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 12,
+    "dmg": "1d4",
+    "archetype": "Fling",
+    "add": "Attacks the target 1d4+1 times"
+  },
+
+  "constrict": {
+    "move": "Constrict",
+    "category": "Physical",
+    "type": "Normal",
+    "accuracy": 5,
+    "pp": 28,
+    "dmg": "1d2",
+    "archetype": "Bind",
+    "add": "Statdecrease Target (1 Speed)"
   }
 }

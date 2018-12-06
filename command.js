@@ -16,10 +16,12 @@ module.exports = function () {
         "- hello: Say hi to me!\n" +
         "- config: See your current settings.\n" +
         "- roll [#][die]: I'll roll the specified die. (WIP)\n" +
-        "- move [move ID]: Check the move's properties (I only have 1-110)" + "```");
+        "- move [move ID]: Check the move's properties (I only have 1-132)" + "```");
         break;
 
         case 'roll':  //roll random number within parameter
+
+        break;
 
         //For fun, text responses
         case 'ping':
