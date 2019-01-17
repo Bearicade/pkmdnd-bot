@@ -1,0 +1,114 @@
+{
+	"normal": {
+    "id": "Normal",
+		"ability": ["", ""],
+    "weak": "NONE",
+    "resist": "NONE"
+	},
+
+  "fire": {
+    "id": "Fire",
+		"ability": ["", ""],
+    "weak": [{"$ref": "#/water"}, {"$ref": "#/ground"}, {"$ref": "#/rock"}],
+    "resist": ""
+	},
+
+  "water": {
+    "id": "Water",
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	},
+
+  "grass": {
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	},
+
+  "electric": {
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	},
+
+  "ice": {
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	},
+
+  "fighting": {
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	},
+
+  "poison": {
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	},
+
+  "ground": {
+    "id": "Ground",
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	},
+
+  "flying": {
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	},
+
+  "psychic": {
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	},
+
+  "bug": {
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	},
+
+  "rock": {
+    "id": "Rock",
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	},
+
+  "ghost": {
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	},
+
+  "dragon": {
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	},
+
+  "dark": {
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	},
+
+  "steel": {
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	},
+
+  "fairy": {
+		"ability": ["", ""],
+    "weak": "",
+    "resist": ""
+	}
+}
